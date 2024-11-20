@@ -50,9 +50,9 @@ const port = 3000;
 const postsRouter = require("./routers/posts");
 
 /* First route */
-/*app.get("/", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Server del mio blog");
-});*/
+});
 
 /* List object */
 const bachecaPost = [

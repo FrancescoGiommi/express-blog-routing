@@ -3,13 +3,15 @@ const router = express.Router();
 
 module.exports = router;
 
+/* Operazioni CRUD */
+
 /* Index */
 router.get("/", (req, res) => {
   res.send("Lista dei post");
 });
 
 /* Show */
-router.get("/:view", (req, res) => {
+router.get("/:show", (req, res) => {
   res.send("Visualizza il post");
 });
 
