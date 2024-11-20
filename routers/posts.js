@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
 });
 
 /* Show */
-router.get("/:show", (req, res) => {
+router.get("/show", (req, res) => {
   res.send("Visualizza il post");
 });
 
@@ -21,12 +21,12 @@ router.post("/", (req, res) => {
 });
 
 /* Update */
-router.put("/:update", (req, res) => {
+router.put("/update", (req, res) => {
   res.send("Modifica completamente il post");
 });
 
 /* Modify */
-router.patch("/:modify", (req, res) => {
+router.patch("/modify", (req, res) => {
   res.send("Modifica parzialmente il post");
 });
 
